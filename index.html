@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades en JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header><h1>Actividades en JavaScript</h1></header>
+    
+    <div class="container">
+        <div class="actividad actividad-invertir">
+            <h2>1. Invertir una Cadena</h2>
+            <input type="text" id="cadenaInput" placeholder="Ingresa una cadena">
+            <button onclick="invertirCadena()">Invertir</button>
+            <p id="invertirCadenaResultado" class="resultado">Resultado: </p>
+        </div>
+
+        <div class="actividad actividad-primo">
+            <h2>2. Número Primo</h2>
+            <input type="number" id="numeroInput" placeholder="Ingresa un número">
+            <button onclick="esNumeroPrimo()">Verificar</button>
+            <p id="esNumeroPrimoResultado" class="resultado">Resultado: </p>
+        </div>
+
+        <div class="actividad actividad-duplicados">
+            <h2>3. Eliminar Duplicados en un Arreglo</h2>
+            <input type="text" id="arregloInput" placeholder='Ingresa un arreglo ["a", "b", "a"]'>
+            <button onclick="eliminarDuplicados()">Eliminar Duplicados</button>
+            <p id="eliminarDuplicadosResultado" class="resultado">Resultado: </p>
+        </div>
+
+        <div class="actividad actividad-factorial">
+            <h2>4. Factorial de un Número</h2>
+            <input type="number" id="factorialInput" placeholder="Ingresa un número">
+            <button onclick="calcularFactorial()">Calcular</button>
+            <p id="factorialResultado" class="resultado">Resultado: </p>
+        </div>
+
+        <div class="actividad actividad-vocales">
+            <h2>5. Contar Vocales</h2>
+            <input type="text" id="vocalesInput" placeholder="Ingresa una cadena">
+            <button onclick="contarVocales()">Contar</button>
+            <p id="contarVocalesResultado" class="resultado">Resultado: </p>
+        </div>
+
+        <div class="actividad actividad-suma">
+            <h2>6. Sumar los Números de un Arreglo</h2>
+            <input type="text" id="sumaInput" placeholder='Ingresa un arreglo [1, 2, 3]'>
+            <button onclick="sumarArreglo()">Sumar</button>
+            <p id="sumarArregloResultado" class="resultado">Resultado: </p>
+        </div>
+
+        <div class="actividad actividad-maximo">
+            <h2>7. Buscar el Máximo en un Arreglo</h2>
+            <input type="text" id="maximoInput" placeholder='Ingresa un arreglo [1, 2, 3]'>
+            <button onclick="buscarMaximo()">Buscar Máximo</button>
+            <p id="buscarMaximoResultado" class="resultado">Resultado: </p>
+        </div>
+    </div>
+
+    <script src="funciones.js"></script>
+</body>
+</html>
